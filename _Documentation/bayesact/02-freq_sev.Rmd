@@ -399,7 +399,7 @@ mv_model_fit =
     freq_data = freq_data_net,
     sev_data = sev_data,
 
-    priors = c(prior(normal(0, 1),
+    prior = c(prior(normal(0, 1),
                      class = Intercept,
                      resp = claimcount),
 
